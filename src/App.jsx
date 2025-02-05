@@ -82,7 +82,7 @@ const handleGuess = (color) => {
             className="color-option"
             style={{ backgroundColor: color }}
             onClick={() => handleGuess(color)}
-            data-testid="colorOption"
+            data-testid="colorOptions"
           >
             <span className="sr-only" aria-label='color option'>{color}</span>
           </button>
